@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+}
+#app {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#palette {
+    margin: 10px;
+}
+.swatch {
+    display: inline-block;
+    text-align: center;
+}
+.swatch div {
+    width: 45px;
+    height: 45px;
+    border: 2px solid black;
+    margin: 3px;
+    display: inline-block;
+}
+.swatch input {
+    display: block;
+    width: 100%;
+    margin: 2px 0 5px 0;
+}
+.swatch.selected {
+    background: #BBFFBB;
+}
+
+#mixer {
+    margin: 10px;
+}
+
+#mixer .mixer-preview{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+#mixer .mixer-output {
+    margin: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
